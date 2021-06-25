@@ -1,0 +1,18 @@
+# Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.
+def sum_function():
+    x = int(input('Enter value of x: '))
+    y = int(input('Enter value of y: '))
+    z = int(input('Enter value of z: '))
+
+    result1 = x + y + z
+    result2 = 0
+
+    if x == y or y == z:
+        print('my sum is: ',result2)
+    elif y == z or z == x:
+        print('my sum is: ',result2)
+    else:
+        return print(result1)
+
+
+sum_function()
